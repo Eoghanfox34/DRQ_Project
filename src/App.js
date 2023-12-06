@@ -22,10 +22,10 @@ const App = () => {
           <TeamList onEdit={handleEdit} />
         </Route>
         <Route path="/driverList" exact>
-          <TeamList onEdit={handleEdit} />
+          <DriverList onEdit={handleEdit} />
         </Route>
         <Route path="/trackList" exact>
-          <TeamList onEdit={handleEdit} />
+          <TrackList onEdit={handleEdit} />
         </Route>
         
       </Switch>
@@ -44,5 +44,5 @@ const App = () => {
   );
 };
 
-export default App;
 
+export default App;
